@@ -8,4 +8,7 @@ func main() {
 
 	fmt.Println("\n========== Bridge Pattern ==========")
 	CallBridgeMethod()
+
+	fmt.Println("\n========== Composite Pattern ==========")
+	CallCompositeMethod()
 }
