@@ -11,4 +11,7 @@ func main() {
 
 	fmt.Println("\n========== Composite Pattern ==========")
 	CallCompositeMethod()
+
+	fmt.Println("\n========== Decorator Pattern ==========")
+	CallDecoratorMethod()
 }
