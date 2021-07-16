@@ -14,4 +14,7 @@ func main() {
 
 	fmt.Println("\n========== Decorator Pattern ==========")
 	CallDecoratorMethod()
+
+	fmt.Println("\n========== Facade Pattern ==========")
+	CallFacadeMethod()
 }
