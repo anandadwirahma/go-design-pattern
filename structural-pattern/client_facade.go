@@ -16,11 +16,11 @@ func CallFacadeMethod() {
 		log.Fatalf("Error: %s\n", err)
 	}
 
-	fmt.Println()
-	err = walletFacade.DeductMoneyForWallet("ananda", 12345, 1000)
-	if err != nil {
-		log.Fatalf("Error: %s\n", err)
-	}
+	//fmt.Println()
+	//err = walletFacade.DeductMoneyForWallet("ananda", 12345, 1000)
+	//if err != nil {
+	//	log.Fatalf("Error: %s\n", err)
+	//}
 
 	fmt.Println()
 	err = walletFacade.DeductMoneyForWallet("ananda", 12345, 100)

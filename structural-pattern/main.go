@@ -17,4 +17,10 @@ func main() {
 
 	fmt.Println("\n========== Facade Pattern ==========")
 	CallFacadeMethod()
+
+	fmt.Println("\n========== Flywight Pattern ==========")
+	CallFlyweightMethod()
+
+	fmt.Println("\n========== Proxy Pattern ==========")
+	CallProxyMethod()
 }
